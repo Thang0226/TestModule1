@@ -9,7 +9,7 @@ function submitBook() {
     return;
   }
 
-  if (year > 10000) {
+  if (year >= 10000) {
     document.getElementById("year").value = null;
     return;
   }
